@@ -17,13 +17,10 @@ Analysis Expressions) - Power Query / Power BI data preparation - Excel
 or structured tabular data (for source-data preparation)
 
 ## Dashboard Preview
+<img width="1325" height="706" alt="image" src="https://github.com/user-attachments/assets/a6c2f086-156a-4439-8d7e-34799f3f874d" />
 
-![Dr. Lal PathLabs Financial Performance
-Dashboard](screenshots/dashboard.png)
 
-> Add your exported dashboard screenshot to a folder named `screenshots`
-> and save it as `dashboard.png`. If you use a different filename or
-> folder, update the image path above.
+
 
 ## Dashboard Features
 
