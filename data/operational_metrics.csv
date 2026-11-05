@@ -1,0 +1,6 @@
+metric,unit,fy2023_24,fy2024_25,source_document_fy24,source_page_fy24,source_document_fy25,source_page_fy25,notes
+Patient Volume,Million,27.6,28.8,Annual Report 2023-24,Page 18 & 101 (PDF) / Page 16 & 99 (Report),Annual Report 2024-25,Page 23 & 112 (PDF) / Page 21 & 110 (Report),Reported consolidated patients served / number of patients
+Sample Volume,Million,78.2,85.6,Annual Report 2023-24,Page 18 & 101 (PDF) / Page 16 & 99 (Report),Annual Report 2024-25,Page 23 & 112 (PDF) / Page 21 & 110 (Report),Reported consolidated samples collected / tested
+Revenue Per Patient,INR,806,855,Annual Report 2023-24,Page 101 (PDF) / Page 99 (Report),Annual Report 2024-25,Page 112 (PDF) / Page 110 (Report),Reported in Key Performance Indicators
+Tests Per Patient,Ratio (No.),2.83,2.97,Annual Report 2023-24,Page 101 (PDF) / Page 99 (Report),Annual Report 2024-25,Page 112 (PDF) / Page 110 (Report),Reported in Key Performance Indicators
+
