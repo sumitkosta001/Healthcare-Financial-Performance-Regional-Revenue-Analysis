@@ -14,21 +14,23 @@ The dashboard contains three report pages:
 
 A high-level view of the company's performance, with headline financial KPIs and an at-a-glance summary.
 
-![Executive Overview](screenshots/01-executive-overview.png)
+<img width="1303" height="733" alt="image" src="https://github.com/user-attachments/assets/e72e977c-c816-4bac-8864-2fc0099c8865" />
+
 
 ### 2. Financial Performance Analysis
 
 A comparison of revenue, EBITDA, PAT and profitability margins across FY2023–24 and FY2024–25.
 
-![Financial Performance Analysis](screenshots/02-financial-performance.png)
+<img width="1302" height="732" alt="image" src="https://github.com/user-attachments/assets/e08d5a56-982e-4fb1-9571-11db44f61835" />
+
 
 ### 3. Operational & Regional Performance
 
 A view of regional revenue share and operational metrics, including patient volume, revenue per patient, sample volume and tests per patient.
 
-![Operational and Regional Performance](screenshots/03-operational-regional-performance.png)
+<img width="1302" height="732" alt="image" src="https://github.com/user-attachments/assets/ad654a17-bcdf-475a-b8cb-0c108a15807f" />
 
-> Save the three report-page images in a folder named `screenshots` using the exact filenames shown above. See [Adding the dashboard screenshots](#adding-the-dashboard-screenshots) for instructions.
+
 
 ---
 
@@ -155,47 +157,29 @@ Regional contribution is presented as a percentage share, based on the regional 
 Use a structure like the following, and keep only files that are actually included in your repository:
 
 ```text
-Healthcare-Diagnostics-Financial-Dashboard/
+Healthcare-Diagnostics-BI/
 │
 ├── data/
 │   ├── financial_summary.csv
-│   ├── region_wise_revenue.csv
-│   └── operational_metrics.csv
+│   ├── historical_financial_trend.csv
+│   ├── operational_metrics.csv
+│   └── region_wise_revenue.csv
 │
-├── screenshots/
-│   ├── 01-executive-overview.png
-│   ├── 02-financial-performance.png
-│   └── 03-operational-regional-performance.png
+├── powerbi/
+│   └── Healthcare_Diagnostics_Dashboard.pbix
 │
-├── Healthcare_Diagnostics_Dashboard.pbix
-└── README.md
+├── reports/
+│   ├── Annual-Report-2023-24.pdf
+│   └── Annual-Report-2024-25.pdf
+│
+├── .gitignore
+├── data_validation_report.md
+├── README.md
+└── source_notes.md
 ```
 
 If your project uses an Excel workbook instead of CSV files, include the actual workbook name. If you are sharing a Power BI Project (`.pbip`) rather than a `.pbix`, include the `.pbip` file and its associated project folders instead of using the example `.pbix` entry above. Do not rename or omit files that the report needs to open.
 
-## Adding the Dashboard Screenshots
-
-Take one screenshot for **each report page** so that someone visiting the GitHub repository can preview the full dashboard without opening Power BI.
-
-1. Open the report in **Power BI Desktop**.
-2. Select the **Executive Overview** page tab.
-3. Hide the Filters, Visualizations and Data panes if they are open.
-4. Set the report view to **Fit to page** (or adjust zoom so the complete page is visible).
-5. Capture the report canvas using Windows Snipping Tool (`Win + Shift + S`).
-6. Save the image as `01-executive-overview.png`.
-7. Repeat for the **Financial Performance Analysis** page and save it as `02-financial-performance.png`.
-8. Repeat for the **Operational & Regional Performance** page and save it as `03-operational-regional-performance.png`.
-9. Place all three images inside the repository's `screenshots/` folder.
-10. Keep the filenames and folder path identical to the Markdown image references in this README.
-
-**Screenshot tips**
-- Capture the whole report canvas, not the Power BI ribbon or editing panes.
-- Use the same zoom level and window size for all three pages where possible.
-- Make sure no visual is selected and no resize handles or menus are visible.
-- Check that titles, chart labels, KPI values and source notes are readable.
-- Use PNG format to keep text and chart labels sharp.
-
-GitHub displays the images directly in the README when the relative paths are correct and the image files have been committed to the repository.
 
 ## How to View the Dashboard
 
@@ -220,9 +204,9 @@ GitHub displays the images directly in the README when the relative paths are co
 
 This is an independent academic and portfolio project created for learning and demonstration purposes. It is not affiliated with, endorsed by or prepared on behalf of Dr. Lal PathLabs Ltd. Company information is based on publicly available annual reports and should be verified against the original source documents.
 
-## Author
+## 👨‍💻 Author
 
 **Sumit Kosta**  
 B.Tech, Electrical Engineering — National Institute of Technology Rourkela
 
-- GitHub: [@sumitkosta001](https://github.com/sumitkosta001)
+- GitHub: [@sumitkosta001](https://github.com/sumitkosta001) 
